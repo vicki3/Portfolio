@@ -58,7 +58,7 @@ aside.leftf {
     height: 80vh;
     border: 15px solid white;
     background-color: darkgray;
-    background-image: url(../image/2M8A4372%20%E6%8B%B7%E8%B2%9D.JPG);
+    background-image: url(../image/1.JPG);
     background-repeat: no-repeat;
     background-size: contain;
     float: left;
@@ -72,7 +72,7 @@ aside.rightf {
     height: 80vh;
     border: 15px solid white;
     background-color: lightgrey;
-    background-image: url(../image/2M8A7113.jpg);
+    background-image: url(../image/2.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     float: right;
@@ -86,7 +86,7 @@ aside.lefts {
     height: 80vh;
     border: 15px solid white;
     background-color: lightgrey;
-    background-image: url(../image/IMG_0562.jpg);
+    background-image: url(../image/3.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     float: left;
@@ -100,13 +100,20 @@ aside.rights {
     height: 80vh;
     border: 15px solid white;
     background-color: darkgray;
-    background-image: url(../image/IMG_0835.jpg);
+    background-image: url(../image/4.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     float: right;
     display: table;
     position: relative;
     cursor: pointer;
+}
+
+aside.leftf:hover,
+aside.rightf:hover,
+aside.lefts:hover,
+aside.rights:hover {
+    background-color: rgba(0, 0, 0, 0.45);
 }
 
 .aside-text {
