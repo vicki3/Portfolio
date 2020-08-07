@@ -36,10 +36,9 @@ header:after {
 .header-text p {
     width: 750px;
     margin: 0 auto;
-    font-size: 30px;
+    font-size: 22px;
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
-    text-transform: uppercase;
 }
 
 .header-text>h1 {
@@ -55,10 +54,10 @@ body {
 
 aside.leftf {
     width: 50%;
-    height: 80vh;
+    height: 55vh;
     border: 15px solid white;
     background-color: darkgray;
-    background-image: url(../image/1.JPG);
+    background-image: url(../image/1.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     float: left;
@@ -69,10 +68,10 @@ aside.leftf {
 
 aside.rightf {
     width: 50%;
-    height: 80vh;
+    height: 55vh;
     border: 15px solid white;
     background-color: lightgrey;
-    background-image: url(../image/2.jpg);
+    background-image: url(../image/44.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     float: right;
@@ -83,7 +82,7 @@ aside.rightf {
 
 aside.lefts {
     width: 50%;
-    height: 80vh;
+    height: 55vh;
     border: 15px solid white;
     background-color: lightgrey;
     background-image: url(../image/3.jpg);
@@ -97,10 +96,10 @@ aside.lefts {
 
 aside.rights {
     width: 50%;
-    height: 80vh;
+    height: 55vh;
     border: 15px solid white;
     background-color: darkgray;
-    background-image: url(../image/4.jpg);
+    background-image: url(../image/22.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     float: right;
@@ -113,20 +112,22 @@ aside.leftf:hover,
 aside.rightf:hover,
 aside.lefts:hover,
 aside.rights:hover {
-    background-color: rgba(0, 0, 0, 0.45);
+    background-color: goldenrod;
 }
 
 .aside-text {
-    font-size: 40px;
+    font-size: 37px;
     color: white;
-    text-align: center;
+    text-align: right;
     margin: 0 auto;
     padding: 0;
     position: relative;
+    right: 20px;
+    bottom: 5px;
     z-index: 3;
     width: 100%;
     font-family: 'Roboto', sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     text-transform: uppercase;
     vertical-align: bottom;
     display: table-cell;
@@ -135,7 +136,7 @@ aside.rights:hover {
 footer {
     background-color: cadetblue;
     width: 100%;
-    height: 200px;
+    height: 120px;
     background-image: url(../image/IMG_8899.jpg);
     clear: both;
     position: relative;
