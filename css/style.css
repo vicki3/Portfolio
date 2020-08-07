@@ -116,7 +116,7 @@ aside.rights:hover {
 }
 
 .aside-text {
-    font-size: 37px;
+    font-size: 35px;
     color: white;
     text-align: right;
     margin: 0 auto;
@@ -126,7 +126,7 @@ aside.rights:hover {
     bottom: 5px;
     z-index: 3;
     width: 100%;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Georgia', sans-serif;
     font-weight: 300;
     text-transform: uppercase;
     vertical-align: bottom;
